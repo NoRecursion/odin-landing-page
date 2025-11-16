@@ -17,25 +17,10 @@ body{
     padding-left: 80px;
     padding-right: 80px;
 }
+
 .sect2{
     padding-left: 40px;
     padding-right: 40px;
-}
-
-ul{
-    list-style: none;
-    margin: 0;
-    display: flex;
-}
-
-.header{
-    background-color:#1f2937;
-}
-
-.sect1{
-    background-color:#1f2937;
-    flex: 0 1 auto;
-    display: flex;
 }
 
 img{
@@ -44,8 +29,57 @@ img{
 }
 
 button{
-    padding: 10px;
-    flex:0 0 auto;
+    padding: 5px 20px;
+    background-color: #3882f6;
+    font-weight: 600;
+    color: #e5e7eb;
+    border:0;
+    border-radius: 5px;
+
+}
+
+
+.header{
+    background-color:#1f2937;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.header>h1{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 1000;
+}
+
+.header>ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    gap: 24px;
+}
+
+.sect1{
+    background-color:#1f2937;
+    flex: 0 1 auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    min-width: 750px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sect1>*{
+    width: 0px;
+    flex: 1 1 0%;
+}
+
+.left>*{
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 .sect2{
@@ -88,6 +122,8 @@ button{
     background-color:#e5e7eb;
     color:#1f2937;
     flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .sect3 *{
     margin:0px;
@@ -95,9 +131,16 @@ button{
 
 .quote{
     align-self: flex-start;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
 }
 .quote_source{
     align-self: flex-end;
+    font-size: 24px;
+    font-weight: 800;
+    color: #1f2937;
 }
 
 .sect4{
@@ -110,6 +153,10 @@ button{
     display: flex;
     background-color:#3882f6;
     color:#f9faf8;
+}
+
+.sect4 button{
+    border: solid #e5e7eb 2px;
 }
 
 .button_container{
