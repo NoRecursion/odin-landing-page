@@ -1,3 +1,5 @@
+/* Note to self, if you plan on overriding all of the text properties, just use a div...*/
+
 body{
     font-family: Roboto, sans-serif;
     color:#f9faf8;
@@ -132,13 +134,13 @@ button{
 .quote{
     align-self: flex-start;
     font-style: italic;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 300;
     color: #1f2937;
 }
 .quote_source{
     align-self: flex-end;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 800;
     color: #1f2937;
 }
@@ -147,12 +149,25 @@ button{
     background-color:#f9faf8;
     justify-content: center;
     align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .sect4>.container{
     display: flex;
     background-color:#3882f6;
     color:#f9faf8;
+    padding: 40px;
+    border-radius: 10px;
+    gap: 40px;
+}
+
+.sect4 p, h3{
+    padding: 0px;
+    margin: 0px;
+}
+.sect4 h3{
+    margin-bottom: 4px;
 }
 
 .sect4 button{
@@ -169,6 +184,4 @@ button{
     display: flex;
     justify-content: center;
     background-color:#1f2937;
-
-
 }
