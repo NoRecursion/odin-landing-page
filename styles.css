@@ -42,12 +42,11 @@ button{
 
 
 .header{
-    background-color:#1f2937;
+    background-color:#18202b;
     justify-content: space-between;
     align-items: center;
     padding-top: 16px;
     padding-bottom: 16px;
-    background-color:#ff00b3;
 }
 
 .header>h1{
@@ -184,5 +183,6 @@ button{
 .footer{
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color:#1f2937;
 }
