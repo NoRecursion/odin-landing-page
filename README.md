@@ -1,1 +1,1 @@
-Landing Page excercise from the odin project
+Landing Page excercise from the odin project.
